@@ -1,0 +1,16 @@
+{
+  "model" : {
+    "name": "file.ClassName",
+    "state_dict": "path/to/state_dict.dat",
+    "params": {
+      "in_channels" : 10,
+      "out_channels" : 1,
+      "num_layers" : 100,
+      "etc" : "ok"
+    }
+  },
+  "gpu" : true,
+  "epochs" : 30,
+  "batch_size" : 64,
+  "data_path" : "../input/data_path"
+}
